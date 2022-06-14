@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Content Hub Hero Image</title>
+    <link href="https://www.purdue.edu/purdue/fonts/united-sans/united-sans.css" rel="stylesheet"/>
+    <link href="https://use.typekit.net/ghc8hdz.css" rel="stylesheet"/>    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" media="all" />
+    <link
+      href="https://www.purdue.edu/purdue/images/favicon.ico"
+      rel="shortcut icon"
+    />
+    <link
+      href="https://www.purdue.edu/purdue/images/icon-iphone.png"
+      rel="apple-touch-icon"
+      sizes="76x76"
+    />
+    <link
+      href="https://www.purdue.edu/purdue/images/icon-ipad.png"
+      rel="apple-touch-icon"
+      sizes="76x76"
+    />
+    <link
+      href="https://www.purdue.edu/purdue/images/icon-iphone-retina.png"
+      rel="apple-touch-icon"
+      sizes="120x120"
+    />
+    <link
+      href="https://www.purdue.edu/purdue/images/icon-ipad-retina.png"
+      rel="apple-touch-icon"
+      sizes="152x152"
+    />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <section class="section">
+      <div class="columns">
+        <div class="column is-one-quarter">
+          <img class="original" src="test.jpeg" />
+          <div class="button">
+            <label for="files">Select an image from your computer</label>
+            <input id="files" type="file"/>
+          </div>
+        </div>
+        <div class="column is-three-quarters">
+          <div class="result">
+            <h1>Content Hub Hero Image On Various Screen</h1>
+
+            <div class="columns">
+              <div class="column desktop is-four-fifths">
+                <h2>Desktop (width: 1920px)</h2>
+                <div class="desktop-image image"></div>
+              </div>
+              <div class="column mobile is-one-fifth">
+                <h2>Mobile (width: 390px)</h2>
+                <div class="mobile-image image"></div>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column laptop is-three-quarters">
+                <h2>Laptop (width: 1680px)</h2>
+                <div class="laptop-image image"></div>
+              </div>
+              <div class="column tablet is-one-quarter">
+                <h2>Tablet (width: 768px)</h2>
+                <div class="tablet-image image"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

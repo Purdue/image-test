@@ -4,43 +4,20 @@ html, body, .section, .section>.columns{
 .desktop-image, .tablet-image, .mobile-image, .laptop-image{
     background-image: url("test.jpeg");
     width:100%;
-    background-position: top center;
+    background-position: center;
     background-size: cover;
 }
-.desktop-image:after, .tablet-image:after, .mobile-image:after, .laptop-image:after{
-    position:absolute;
-    content:"";
-    background: 0 0;
-    background-image: linear-gradient(180deg,#000,rgba(5,5,5,.361) 65%,rgba(76,76,76,.059) 91%,rgba(84,84,84,0));
-    background-position: 50%;
-    background-repeat: no-repeat;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
 .desktop-image{
-    padding-top:42.94%;
-}
-.desktop-image:after{
-    height:28.1%;
-}
-.laptop-image:after{
-    height:28.97%;
-}
-.tablet-image:after{
-    height:26.59%;
-}
-.mobile-image:after{
-    height:32.65%;
+    padding-top:52.08%;
 }
 .laptop-image{
     padding-top:47.56%;
 }
 .tablet-image{
-    padding-top:113.53%;
+    padding-top:156.25%;
 }
 .mobile-image{
-    padding-top:181.78%;
+    padding-top:56.25%;
 }
 .result{
     border:2px solid gray;
